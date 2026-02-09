@@ -266,6 +266,7 @@ class Btcli < Formula
   end
 
   test do
+    ENV["DISK_CACHE"] = "0"
     require "json"
     wallet_path = testpath/"btcli-brew-test"
     test_wallet_name = "brew-test"

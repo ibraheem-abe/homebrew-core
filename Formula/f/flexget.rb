@@ -3,8 +3,8 @@ class Flexget < Formula
 
   desc "Multipurpose automation tool for content"
   homepage "https://www.flexget.com"
-  url "https://files.pythonhosted.org/packages/41/cc/dbcba4d30ede129282581a8f46d9b5f7acc0c47bd5e68d53fc424f3fee3c/flexget-3.18.43.tar.gz"
-  sha256 "698f8c5f2e1fa29908cda94c4856dcc18cf2d2376a717bf8b78c40c2013df18f"
+  url "https://files.pythonhosted.org/packages/4e/8e/6a8e33e402825e13c2c5824ec1c0077ff39f7016552728ef04395950ae76/flexget-3.18.44.tar.gz"
+  sha256 "1d6e595b1644f6c7aca164b11f0006fb9be1898f9b98cf8fd629d3aea848fce0"
   license "MIT"
 
   bottle do
@@ -168,8 +168,8 @@ class Flexget < Formula
   end
 
   resource "jaraco-text" do
-    url "https://files.pythonhosted.org/packages/4f/00/1b4dbbc5c6dcb87a4278cc229b2b560484bf231bba7922686c5139e5f934/jaraco_text-4.0.0.tar.gz"
-    sha256 "5b71fecea69ab6f939d4c906c04fee1eda76500d1641117df6ec45b865f10db0"
+    url "https://files.pythonhosted.org/packages/cf/fe/b848795b0255d87e1f9b5e9465e63542b4a220b3116cdf3bbfecba52b115/jaraco_text-4.1.0.tar.gz"
+    sha256 "d69b22dec062a6fcbcffef67205cbd20258c48df2d417b35185fa0fd8dd860ff"
   end
 
   resource "jinja2" do
@@ -293,8 +293,8 @@ class Flexget < Formula
   end
 
   resource "setuptools" do
-    url "https://files.pythonhosted.org/packages/76/95/faf61eb8363f26aa7e1d762267a8d602a1b26d4f3a1e758e92cb3cb8b054/setuptools-80.10.2.tar.gz"
-    sha256 "8b0e9d10c784bf7d262c4e5ec5d4ec94127ce206e8738f29a437945fbc219b70"
+    url "https://files.pythonhosted.org/packages/82/f3/748f4d6f65d1756b9ae577f329c951cda23fb900e4de9f70900ced962085/setuptools-82.0.0.tar.gz"
+    sha256 "22e0a2d69474c6ae4feb01951cb69d515ed23728cf96d05513d36e42b62b37cb"
   end
 
   resource "sgmllib3k" do
